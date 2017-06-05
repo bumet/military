@@ -5,5 +5,5 @@ This repository contains the build files of the Military site redesign for the s
 ## Getting Started
 
 1. Download the master branch of this repository
-2. If working with SASS, run `sass watch` on the `military.scss` file
+2. If working with SASS, run `sass watch` on the `style.scss` file
 3. Commit to master once complete
