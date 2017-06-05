@@ -1,0 +1,60 @@
+$columns: 12;
+@mixin col-x-list {
+   @for $i from 1 through $columns {
+    %col-sm-#{$i} {
+      @include breakpoint($XS) {
+        float: left;
+        width: percentage($i / $columns);
+        &:nth-of-type(#{$columns/$i}n+1) {
+          clear: left;
+        }
+        &:not(:nth-of-type(#{$columns/$i}n+1)) {
+          clear: none;
+        }
+      }
+    }
+  }
+  @for $i from 1 through $columns {
+    %col-sm-#{$i} {
+      @include breakpoint($SM) {
+        float: left;
+        width: percentage($i / $columns);
+        &:nth-of-type(#{$columns/$i}n+1) {
+          clear: left;
+        }
+        &:not(:nth-of-type(#{$columns/$i}n+1)) {
+          clear: none;
+        }
+      }
+    }
+  }
+  @for $i from 1 through $columns {
+    %col-md-#{$i} {
+      @include breakpoint($MD) {
+        float: left;
+        width: percentage($i / $columns);
+        &:nth-of-type(#{$columns/$i}n+1) {
+          clear: left;
+        }
+        &:not(:nth-of-type(#{$columns/$i}n+1)) {
+          clear: none;
+        }
+      }
+    }
+  }
+  @for $i from 1 through $columns {
+    %col-lg-#{$i} {
+      @include breakpoint($LG) {
+        float: left;
+        width: percentage($i / $columns);
+        &:nth-of-type(#{$columns/$i}n+1) {
+          clear: left;
+        }
+        &:not(:nth-of-type(#{$columns/$i}n+1)) {
+          clear: none;
+        }
+      }
+    }
+  }
+}
+@include col-x-list;

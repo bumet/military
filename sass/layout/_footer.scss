@@ -1,0 +1,17 @@
+footer nav {
+  text-align: center;
+  @include breakpoint($SM) {
+    text-align: left;
+  }
+}
+.siteFooter-brand+.siteFooter-content {
+  @include breakpoint($SM) {
+    margin: 0;
+  }
+}
+.siteFooter-brand {
+  @include breakpoint($SM) {
+    display: none;
+    width: 0;
+  }
+}

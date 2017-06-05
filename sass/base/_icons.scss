@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "BU-Default-Icons";
+  src: url("https://www.bu.edu/cdn/fonts/icons/bu-default-icons/bu-default-icons.eot");
+  src: url("https://www.bu.edu/cdn/fonts/icons/bu-default-icons/bu-default-icons.eot?#iefix") format("embedded-opentype"), url("https://www.bu.edu/cdn/fonts/icons/bu-default-icons/bu-default-icons.woff") format("woff"), url("https://www.bu.edu/cdn/fonts/icons/bu-default-icons/bu-default-icons.ttf") format("truetype"), url("https://www.bu.edu/cdn/fonts/icons/bu-default-icons/bu-default-icons.svg#bu-default-icons") format("svg");
+  font-style: normal;
+  font-weight: 400;
+}
+%icon {
+  font-family: "BU-Default-Icons";
+  font-style: normal;
+}
+.icon-envelope {
+  content: "\2709";
+}
+.icon-link {
+  content: "\1F51B";
+}
+.icon-phone {
+  content: "\1F4DE";
+}
+.icon-laptop {
+  content: "\EA00";
+}
+%icon-navigateright {
+  content: "\25BB";
+}
+%icon-compose:before {
+  content: "\1F4DD";
+}
+%icon-file:before {
+  content: "\1F4C4";
+}
+%icon-info {
+  content: "\2139";
+}
