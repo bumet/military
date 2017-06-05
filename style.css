@@ -1,10 +1,9 @@
 /*
   Theme Name: Military
-  Theme URI: http://www.bu.edu/military/
+  Theme URI: https://www.bu.edu/military/
   Description: BU Military site redesign/site migration to Wordpress
-  Author: Richard Torres
-  Author email: rtorres@bu.edu
-  Version: 1.0
+  Author: Boston University Metropolitan College
+  Version: 1.0.0
   Tags: Military, Green, Responsive, Mobile-first, Modular, Sass
 */
 /* Color Palette http://www.delica.ca/forum/download/file.php?id=9055 */
@@ -498,4 +497,4 @@ input[name="input_3"] {
     .course-feeds .row [class*="col-"] .start, .course-feeds .row [class*="col-"] .end {
       white-space: nowrap; }
 
-/*# sourceMappingURL=military.css.map */
+/*# sourceMappingURL=style.css.map */
