@@ -1,0 +1,39 @@
+.widget-bu-posts .post {
+  box-shadow: 2px 2px 2px lightgray, -2px 2px 2px lightgray, 2px -2px 2px lightgray;
+  margin: 15px 0;
+  padding: 10px;
+}
+.widget-bu-posts .post .headline a {
+  display: block;
+  padding-bottom: 0.5em;
+  color: #018fd7;
+}
+.widget-bu-posts .excerpt {
+  font-family: $font-family;
+  font-weight: 300;
+  font-size: 13px;
+}
+.widget-bu-posts .widgetTitle {
+  background-color: $nato-light-green;
+  border-bottom: none;
+  color: white;
+  cursor: default;
+  font-family: $font-family;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 0;
+  padding: 5px 10px;
+  text-align: center;
+}
+.widget-bu-posts a {
+  font-size: 14px;
+  font-weight: normal;
+  color: dimgray;
+  text-decoration: none;
+}
+.widget-bu-posts a:hover {
+  text-decoration: underline;
+}
+.widget-bu-posts .thumb {
+  margin-top: 0;
+}

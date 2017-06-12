@@ -4,7 +4,7 @@ footer nav {
     text-align: left;
   }
 }
-.siteFooter-brand+.siteFooter-content {
+.siteFooter-brand + .siteFooter-content {
   @include breakpoint($SM) {
     margin: 0;
   }

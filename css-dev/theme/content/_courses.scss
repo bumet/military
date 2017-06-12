@@ -1,0 +1,33 @@
+.course-feeds .bu_collapsible_container .bu_collapsible {
+  border-bottom: 1px solid #cacaca;
+  font-weight: bold;
+  padding: 10px 30px 10px 10px;
+}
+.course-feeds .bu_collapsible_container .bu_collapsible .coursenum {
+  font-weight: normal;
+  width: 6em;
+  display: inline-block;
+  font-size: 14px;
+}
+.course-feeds .row {
+  margin: 0;
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+}
+.course-feeds .row [class*="col-"] {
+  padding: 0 5px;
+}
+.course-feeds .row [class*="col-"] .title {
+  display: block;
+  background: dimgray;
+  color: white;
+  margin: 0 -5px;
+  padding: 0 5px;
+}
+.course-feeds p:empty {
+  display: none;
+}
+.course-feeds .row [class*="col-"] .start,
+.course-feeds .row [class*="col-"] .end {
+  white-space: nowrap;
+}

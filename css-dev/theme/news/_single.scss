@@ -1,0 +1,10 @@
+.single footer.meta {
+  display: none;
+}
+.single .archiveLink,
+.single .postsArchiveLink,
+.single .archiveLink:visited,
+.single .postsArchiveLink:visited {
+  background-color: $nato-light-green;
+  color: white;
+}

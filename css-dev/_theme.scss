@@ -1,0 +1,26 @@
+// =================================================================
+// Content and Shortcodes
+// =================================================================
+@import "theme/content/collapsibles";
+@import "theme/content/courses";
+
+// =================================================================
+// Layout
+// =================================================================
+@import "theme/layout/header";
+@import "theme/layout/banner";
+@import "theme/layout/branding";
+@import "theme/layout/navigation";
+@import "theme/layout/footer";
+
+// =================================================================
+// Widgets
+// =================================================================
+@import "theme/widgets/widgets";
+@import "theme/widgets/widget-posts";
+@import "theme/widgets/widget-navigation";
+
+// =================================================================
+// Templates
+// =================================================================
+@import "theme/news/single";

@@ -1,0 +1,85 @@
+.cta > div > div {
+  box-shadow: 1px 1px 4px lightgray, -1px 1px 4px lightgray, 1px -1px 4px lightgray;
+  border-radius: 0.125rem;
+  overflow: hidden;
+  margin: 10px 0;
+}
+.cta .custom-widget-content-wrapper {
+  background-color: $nato-light-green;
+  color: white;
+  padding: 10px;
+}
+.cta a:hover .custom-widget-content-wrapper {
+  color: #679866;
+  background-color: white;
+}
+.cta a {
+  display: block;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+.cta a:hover {
+  background-color: $nato-light-green;
+  color: $nato-light-green;
+  transition: background-color 0.2s ease;
+}
+.cta a:hover:before {
+  color: white;
+}
+.cta a:before {
+  @extend %icon;
+  display: table-cell;
+  min-width: 80px;
+  font-size: 2em;
+  vertical-align: middle;
+  text-align: center;
+  color: $nato-light-green;
+}
+.cta a div {
+  display: table-cell;
+  width: 90%;
+}
+.cta a .icon:before {
+  background-color: $nato-light-green;
+  font-size: 30px;
+  margin: 0 20px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+}
+.cta .apply a:before {
+  @extend %icon-compose;
+}
+.cta .download-brochure a:before {
+  @extend %icon-file;
+}
+.cta .request-information a:before {
+  @extend %icon-info;
+}
+.cta a:visited {
+  color: white;
+}
+.cta a:hover h2 {
+  color: $nato-light-green;
+}
+.cta a h2 {
+  border-bottom: 2px solid $nato-light-green;
+  color: white;
+  font-family: $font-family;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3em;
+  margin-bottom: 0.25em;
+  margin-top: 0;
+}
+.cta a p {
+  font-family: $font-family;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin: 0;
+}

@@ -3,21 +3,3 @@
     @content;
   }
 }
-@mixin box-shadow($value...) {
-  -webkit-box-shadow: $value;
-     -moz-box-shadow: $value;
-      -ms-box-shadow: $value;
-          box-shadow: $value;
-}
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-          border-radius: $radius;
-}
-@mixin transition($value) {
-  -webkit-transition: $value;
-     -moz-transition: $value;
-       -o-transition: $value;
-          transition: $value;
-}

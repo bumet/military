@@ -2,13 +2,12 @@ article[role="main"] a {
   text-decoration: none;
   border-bottom: 1px dotted $nato-light-green;
   color: $nato-light-green;
-
-  &:visited {
-    color: $nato-light-green;
-  }
-  &:hover {
-    border: none;
-  }
+}
+article[role="main"] a:visited {
+  color: $nato-light-green;
+}
+article[role="main"] a:hover {
+  border: none;
 }
 
 .anchor {
@@ -24,31 +23,28 @@ a[rel="bookmark"] {
 table {
   border: 0;
   width: 100%;
-  tr, td {
-    border: 1px solid lightgray;
-  }
+}
+table tr,
+table td {
+  border: 1px solid lightgray;
 }
 
 i {
   font-style: normal;
 }
 
-.course-feeds p:empty {
-  display: none;
-}
-
 .contact {
-  @include box-shadow(0px 0px 10px 0px rgba(0,0,0,0.3));
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
   max-width: 500px;
-  @include border-radius(0.25rem);
+  border-radius: 0.25rem;
   overflow: hidden;
   margin: auto;
-  table {
-    box-shadow: none;
-    tr {
-      border: none;
-    }
-  }
+}
+.contact table {
+  box-shadow: none;
+}
+.contact table tr {
+  border: none;
 }
 
 [class*="col-"] {

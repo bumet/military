@@ -1,0 +1,40 @@
+.widget_bu_pages .widgetTitle {
+  border-bottom-width: 2px;
+}
+.widget_bu_pages .widgetTitle a {
+  color: #4A4A4A;
+  display: block;
+  font-size: 0.9em;
+}
+.widget_bu_pages .widgetTitle a:after {
+  content: none;
+}
+.widget_bu_pages .widgetTitle a:active,
+.widget_bu_pages .widgetTitle a:focus,
+.widget_bu_pages .widgetTitle a:hover {
+  color: #4A4A4A;
+}
+.widget_bu_pages .page_item a {
+  color: gray;
+  text-decoration: none;
+  padding-left: 0.5em;
+  padding-right: 1em;
+}
+.widget_bu_pages .page_item a:after {
+  @extend %icon;
+  @extend %icon-navigateright;
+  position: absolute;
+  right: 0.5em;
+}
+.widget_bu_pages .page_item a.active,
+.widget_bu_pages .page_item a.active_selection,
+.widget_bu_pages .page_item a:active,
+.widget_bu_pages .page_item a:focus,
+.widget_bu_pages .page_item a:hover {
+  color: $nato-light-green;
+  font-weight: bold;
+}
+.widget_bu_pages .page_item a.active,
+.widget_bu_pages .page_item a.active_section {
+  font-weight: bold;
+}

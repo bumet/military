@@ -1,0 +1,14 @@
+/******************************************
+ * Faculty List
+ *****************************************/
+.faculty-list {
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0 -10px;
+}
+.faculty-list li {
+  @extend %col-sm-6;
+  margin-bottom: 2em;
+  padding: 0 10px;
+}
